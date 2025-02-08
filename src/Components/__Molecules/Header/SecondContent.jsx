@@ -36,6 +36,9 @@ const Morebutton = styled.button`
   letter-spacing: 5px;
   text-transform: uppercase;
   cursor: pointer;
+  &:hover {
+    color: gray;
+  }
 `;
 
 const P = styled.p`

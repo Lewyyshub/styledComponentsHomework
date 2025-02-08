@@ -42,6 +42,9 @@ const Button = styled.button`
   cursor: pointer;
   display: flex;
   align-items: center;
+  &:hover {
+    color: white;
+  }
 `;
 
 function Content() {
